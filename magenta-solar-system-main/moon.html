@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <style>
+      body {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/870/original/gino-0gTtEsOBJDo-unsplash.jpg?1681897440);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .video {
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(22, 19, 19, 0.7);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 600px;
+        color: #fff;
+        border: 1px solid #fff;
+      }
+
+      .card img {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 220px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        flex: 1 1 auto;
+        padding: 20px;
+      }
+
+      .card-content h2 {
+        font-size: 24px;
+        margin-top: 0;
+        font-size: 20px;
+      }
+
+      .card-content p {
+        font-size: 14px;
+        margin: 22px 0 22px 0;
+      }
+
+      .card-content a {
+        display: inline-block;
+        background-color: #868b97;
+        color: #fff;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .card-content a:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        transition: 5ms ease-in-out;
+
+        /**/
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(22, 19, 19, 0.7);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: #fff;
+        border: 1px solid #fff;
+      }
+
+      .card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      .card-content {
+        padding: 20px;
+      }
+
+      .card-content h2 {
+        font-size: 24px;
+        margin-top: 0;
+        font-size: 20px;
+      }
+
+      .card-content p {
+        font-size: 14px;
+        margin: 22px 0 22px 0;
+      }
+
+      .card-content a {
+        display: inline-block;
+        background-color: #868b97;
+        color: #fff;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .card-content a:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        transition: 5ms ease-in-out;
+      }
+
+      @media (min-width: 768px) {
+        .card {
+          flex-direction: row;
+          width: 600px;
+        }
+
+        .card img {
+          width: 200px;
+          height: 220px;
+        }
+
+        .card-content {
+          flex: 1 1 auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html" target="_blank">Home</a></li>
+        <li><a href="/news.html" target="_blank">News</a></li>
+        <li><a href="/about.html" target="_blank">About</a></li>
+        <li><a href="/contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Moon Phase and Libration: 2023</h1>
+
+      <div class="video">
+        <iframe
+          width="545"
+          height="307"
+          src="https://www.youtube.com/embed/jHWj-8GZbtE"
+          title="Moon Phase 2023"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h2 class="sailor_moon">Moons in Our Solar System</h2>
+
+      <hr />
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/869/original/Earth's_Moon.jpeg?1681896490"
+          alt="earths-moon"
+        />
+        <div class="card-content">
+          <h2>Earth's Moon</h2>
+          <p>
+            The fifth largest moon in the solar system, Earth's moon is the only
+            place beyond Earth where humans have set foot.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/earths-moon/overview/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/871/original/Martian_Moon.jpeg?1681898332"
+          alt="mars-moons"
+        />
+        <div class="card-content">
+          <h2>Mars Moons</h2>
+          <p>
+            Mars has two moons, Phobos and Deimos. Both are believed to be
+            captured asteroids.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/mars-moons/overview"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/872/original/Jupiter-Moons.png?1681898729"
+          alt="jupiter-moons"
+        />
+        <div class="card-content">
+          <h2>Jupiter Moons</h2>
+          <p>
+            Jupiter's four largest moons were the first moons discovered beyond
+            Earth.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/jupiter-moons/overview"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/873/original/Saturn_Moons.jpeg?1681898903"
+          alt="saturn-moons"
+        />
+        <div class="card-content">
+          <h2>Saturn Moons</h2>
+          <p>
+            Saturn's moons range in size from larger than the planet Mercury –
+            the giant moon Titan – to as small as a sports arena.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/saturn-moons/overview/"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/875/original/Uranus_Moons.jpeg?1681899129"
+          alt="uranus-moons"
+        />
+        <div class="card-content">
+          <h2>Uranus Moons</h2>
+          <p>
+            “Sweet Moon," William Shakespeare wrote in "A Midsummer Night's
+            Dream," "I thank thee for thy sunny beams; I thank thee, Moon, for
+            shining now so bright."
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/uranus-moons/overview"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/876/original/Neptune_Moons.jpeg?1681899255"
+          alt="neptune-moons"
+        />
+        <div class="card-content">
+          <h2>Neptune Moons</h2>
+          <p>
+            We don't know if William Lassell had a celebratory beverage after he
+            discovered Neptune's moon, Triton, but beer made the finding
+            possible.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/neptune-moons/overview"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          class="moon_gallery"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/877/original/Pluto_Moons.jpeg?1681899400"
+          alt="pluto-moons"
+        />
+        <div class="card-content">
+          <h2>Pluto Moons</h2>
+          <p>
+            The fifth largest moon in the solar system, Earth's moon is the only
+            place beyond Earth where humans have set foot.
+          </p>
+          <a
+            href="https://solarsystem.nasa.gov/moons/pluto-moons/overview"
+            target="_blank"
+            >Read more</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; Coded by Mona-Georgiana. Since 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

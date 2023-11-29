@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <style>
+      body {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/886/original/hamish-dowson-HgxVSzUHDRY-unsplash.jpg?1681902450);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .news {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+
+      .video_2 {
+        align-items: center;
+        text-align: center;
+      }
+
+      /**/
+
+      @media only screen and (max-width: 500px) {
+        /* Video */
+        .video_2 iframe {
+          width: 100%;
+          height: 300px;
+          margin: 5px auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html" target="_blank">Home</a></li>
+        <li><a href="/news.html" target="_blank">News</a></li>
+        <li><a href="/about.html" target="_blank">About</a></li>
+        <li><a href="/contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Daily News By Nasa</h1>
+
+      <div class="video_2">
+        <iframe
+          width="600"
+          height="330"
+          src="https://www.youtube.com/embed/MeiGUv5jF5Y"
+          title="What&#39;s Up: April 2023 Skywatching Tips from NASA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <a
+        href="https://solarsystem.nasa.gov/news/?order=publish_date+desc&per_page=50&page=0&search=&filter_categories%5B0%5D%5B%5D=-438&fs=&fc=&ft=&dp=&category=-438"
+        target="_blank"
+        style="margin-left: 30px"
+        >News on Nasa
+      </a>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; Coded by Mona-Georgiana. Since 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+/* Reset styles to remove browser defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set font size and line height for body */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set styles for navigation bar */
+nav {
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.7
+  ); /* Set a background color with 70% opacity */
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Set styles for main content */
+main {
+  flex: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.sailor_moon {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.suggest {
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+}
+
+.planet_title {
+  font-size: 20x;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgba(27, 110, 116, 0.3);
+  cursor: pointer;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  border: rgb(113, 107, 107) 1px solid;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0 10px;
+  transition: ease-in-out 5ms;
+}
+
+hr {
+  margin: 0 auto;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(
+    51,
+    51,
+    51,
+    0.7
+  ); /* Set a background color with 70% opacity */
+  color: #fff;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+a {
+  color: #fff;
+}
+
+.video {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/**/
+
+button a {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.planet_title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.video iframe {
+  width: 100%;
+  height: 300px;
+}
+
+main {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.planet_title {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+hr {
+  margin: 10px;
+}
